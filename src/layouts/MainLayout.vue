@@ -7,7 +7,7 @@
 
         <q-toolbar-title>
           <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Island_with_Trees_Flat_Icon_Vector.svg/1024px-Island_with_Trees_Flat_Icon_Vector.svg.png" >
           </q-avatar>
           A local like
         </q-toolbar-title>
