@@ -181,13 +181,15 @@ import { ref } from 'vue'
 export default {
   setup () {
     return {
-      stars: ref(4)
+      stars: ref(5)
     }
   }
 }
 </script>
 <style lang="sass" scoped>
 .my-card
+  left : center
   width: 100%
   max-width: 300px
+  max-height:500px
 </style>
