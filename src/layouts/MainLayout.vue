@@ -28,27 +28,27 @@
               สถานที่ท่องเที่ยว
               </q-item-section>
             </q-item>
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="trang_tour">
               <q-item-section style="align-items: center;">
                 ตรัง
               </q-item-section>
             </q-item>
 
-            <q-item  clickable v-ripple to="home">
+            <q-item  clickable v-ripple to="krabi_tour">
 
               <q-item-section style="align-items: center;">
                 กระบี่
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="phangnga_tour">
 
               <q-item-section style="align-items: center;">
                 พังงา
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="phuket_tour">
 
               <q-item-section style="align-items: center;">
                 ภูเก็ต
@@ -59,27 +59,27 @@
                 ที่พัก/โรงแรม
               </q-item-section>
             </q-item>
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="trang_hotel">
               <q-item-section style="align-items: center;">
                 ตรัง
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="krabi_hotel">
 
               <q-item-section style="align-items: center;">
                 กระบี่
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="phangnga_hotel">
 
               <q-item-section style="align-items: center;">
                 พังงา
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple to="home">
+            <q-item clickable v-ripple to="phuket_hotel">
 
               <q-item-section style="align-items: center;">
                 ภูเก็ต
