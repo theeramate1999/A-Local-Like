@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh Lpr lFf">
 
-    <q-header elevated class="bg-primary text-white" height-hint="98">
+    <q-header elevated class="bg-secondary text-white" height-hint="98">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
@@ -14,9 +14,8 @@
       </q-toolbar>
 
       <q-tabs align="right">
-        <q-route-tab to="/home" label="หน้าแรก" />
+        <q-route-tab to="/" label="หน้าแรก" />
         <q-route-tab to="/video" label="วีดีโอท่องเที่ยว" />
-        <q-route-tab to="/review" label="รีวิวคาเฟ่/ร้านอาหาร" />
         <q-route-tab to="/contact" label="ติดต่อเรา" />
       </q-tabs>
     </q-header>
@@ -25,104 +24,71 @@
       <q-scroll-area class="fit">
           <q-list padding class="menu-list">
               <q-item >
-              <q-item-section avatar>
-                <!-- <q-icon name="inbox" /> -->
-              </q-item-section>
-              <q-item-section>
-                สถานที่ท่องเที่ยว
+              <q-item-section class="text-h6" style="align-items: center;">
+              สถานที่ท่องเที่ยว
               </q-item-section>
             </q-item>
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="inbox" /> -->
-              </q-item-section>
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 ตรัง
               </q-item-section>
             </q-item>
 
             <q-item  clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="star" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 กระบี่
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="send" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 พังงา
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="drafts" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 ภูเก็ต
               </q-item-section>
             </q-item>
               <q-item >
-              <q-item-section avatar>
-                <!-- <q-icon name="inbox" /> -->
-              </q-item-section>
-              <q-item-section>
+              <q-item-section class="text-h6" style="align-items: center;">
                 ที่พัก/โรงแรม
               </q-item-section>
             </q-item>
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="inbox" /> -->
-              </q-item-section>
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 ตรัง
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="star" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 กระบี่
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="send" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 พังงา
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple to="home">
-              <q-item-section avatar>
-                <!-- <q-icon name="drafts" /> -->
-              </q-item-section>
 
-              <q-item-section>
+              <q-item-section style="align-items: center;">
                 ภูเก็ต
               </q-item-section>
             </q-item>
           </q-list>
         </q-scroll-area>
     </q-drawer>
-
-    <q-page-container>
       <router-view />
-    </q-page-container>
 
   </q-layout>
 </template>
@@ -143,3 +109,7 @@ export default {
   }
 }
 </script>
+<style lang="sass" scoped>
+.menu-list
+  background: $cyan-2
+</style>

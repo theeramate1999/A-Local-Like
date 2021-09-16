@@ -1,5 +1,9 @@
 <template>
-    <div class="q-pa-md row items-start q-gutter-md">
+<div class="row">
+  <div class="col"></div>
+  <div class="col-8">
+    <br><br><br><br><br>
+        <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card">
       <q-img src="https://sweetclothesforu.files.wordpress.com/2019/11/1419522578-l268313614-o.jpg" />
 
@@ -174,6 +178,10 @@
     </q-card>
 
     </div>
+  </div>
+  <div class="col"></div>
+</div>
+
 </template>
 <script>
 import { ref } from 'vue'
